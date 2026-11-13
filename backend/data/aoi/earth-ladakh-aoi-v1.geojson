@@ -1,0 +1,13 @@
+{
+  "type": "Feature", "id": "earth-ladakh-aoi-v1",
+  "properties": {
+    "aoi_id": "earth-ladakh-aoi-v1", "site_id": "earth-ladakh", "version": "1.0", "planetary_body": "earth",
+    "center_latitude": 34.20, "center_longitude": 77.60, "width_m": 10000, "height_m": 10000,
+    "selection_rationale": "A bounded high-altitude cold-desert window around the catalog locator, suitable for the same-scale terrain experiment while avoiding claims about all of Ladakh.",
+    "intended_analog_characteristics": ["cold-desert terrain", "slope distribution", "local relief", "surface roughness"],
+    "known_limitations": ["The exact subregion needs expert review", "Earth pressure, climate, geology, and operational conditions are outside the terrain score"],
+    "creation_method": "Approximate WGS84 display footprint around a 10 km metric analysis grid center.",
+    "source_references": ["earth-ladakh-srtmgl1"]
+  },
+  "geometry": {"type": "Polygon", "coordinates": [[[77.5458,34.1550],[77.6542,34.1550],[77.6542,34.2450],[77.5458,34.2450],[77.5458,34.1550]]]}
+}

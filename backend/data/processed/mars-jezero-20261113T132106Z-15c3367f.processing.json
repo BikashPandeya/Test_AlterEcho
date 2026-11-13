@@ -1,0 +1,45 @@
+{
+  "processing_run_id": "mars-jezero-20261113T132106Z-15c3367f",
+  "timestamp": "2026-11-13T13:21:06.458092+00:00",
+  "site_id": "mars-jezero",
+  "source_id": "mars-jezero-ctx-dem",
+  "source_checksum": "ba7f706ea1b5d63a562f28a7dcf7a7f3c79bce7f048e6974b57e8a33c30d1ba2",
+  "aoi_version": "1.0",
+  "methodology_version": "terrain-v2.0",
+  "software_version": "0.2.0",
+  "native_resolution": [
+    20.0,
+    20.0
+  ],
+  "target_resolution": 60.0,
+  "source_crs": "PROJCS[\"Jezero_Crater_Projection\",GEOGCS[\"GCS_Mars_2000_Sphere\",DATUM[\"Mars_2000_(Sphere)\",SPHEROID[\"Mars_2000_Sphere\",3396190,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",18.4663],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+  "processing_crs": "PROJCS[\"Jezero_Crater_Projection\",GEOGCS[\"GCS_Mars_2000_Sphere\",DATUM[\"Mars_2000_(Sphere)\",SPHEROID[\"Mars_2000_Sphere\",3396190,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",18.4663],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+  "resampling_method": "bilinear",
+  "nodata_handling": "Source nodata is propagated to NaN and excluded from every metric",
+  "requested_analysis_window_m": [
+    10000.0,
+    10000.0
+  ],
+  "actual_analysis_window_m": [
+    10020.0,
+    10020.0
+  ],
+  "grid_dimensions": [
+    167,
+    167
+  ],
+  "metric_configuration": {
+    "methodology_version": "terrain-v2.0",
+    "slope_method": "central differences using metric x/y spacing",
+    "local_relief_definition": "local maximum minus local minimum",
+    "local_relief_neighborhood_m": 1000.0,
+    "local_relief_window_pixels": 17,
+    "roughness_definition": "local elevation standard deviation",
+    "roughness_neighborhood_m": 300.0,
+    "roughness_window_pixels": 5
+  },
+  "output_summary": "data\\processed\\mars-jezero.terrain.json",
+  "output_checksum": "737a10d9c5af3aca9b00a458f887f7ae6d8d34117b3b2ece68d5dbe7b0dff1cf",
+  "quality_passed": true,
+  "warnings": []
+}

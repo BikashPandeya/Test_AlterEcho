@@ -1,0 +1,45 @@
+{
+  "processing_run_id": "earth-upper-mustang-20261113T151715Z-63d28f45",
+  "timestamp": "2026-11-13T15:17:15.839618+00:00",
+  "site_id": "earth-upper-mustang",
+  "source_id": "earth-upper-mustang-srtmgl1",
+  "source_checksum": "7ab9f9c07f8a43f96fcd1e00dabb269a88221df1fed1445f58d49857ef08ca7b",
+  "aoi_version": "1.0",
+  "methodology_version": "terrain-v2.0",
+  "software_version": "0.2.0",
+  "native_resolution": [
+    0.0002777777777777778,
+    0.0002777777777777778
+  ],
+  "target_resolution": 60.0,
+  "source_crs": "EPSG:4326",
+  "processing_crs": "EPSG:32644",
+  "resampling_method": "bilinear",
+  "nodata_handling": "Source nodata is propagated to NaN and excluded from every metric",
+  "requested_analysis_window_m": [
+    10000.0,
+    10000.0
+  ],
+  "actual_analysis_window_m": [
+    10020.0,
+    10020.0
+  ],
+  "grid_dimensions": [
+    167,
+    167
+  ],
+  "metric_configuration": {
+    "methodology_version": "terrain-v2.0",
+    "slope_method": "central differences using metric x/y spacing",
+    "local_relief_definition": "local maximum minus local minimum",
+    "local_relief_neighborhood_m": 1000.0,
+    "local_relief_window_pixels": 17,
+    "roughness_definition": "local elevation standard deviation",
+    "roughness_neighborhood_m": 300.0,
+    "roughness_window_pixels": 5
+  },
+  "output_summary": "data\\processed\\earth-upper-mustang.terrain.json",
+  "output_checksum": "4d27b82518f8ba9e290bc50dfa8f79db85214967a3c3cc4ca1eb9d98990669d1",
+  "quality_passed": true,
+  "warnings": []
+}

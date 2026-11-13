@@ -1,0 +1,14 @@
+{
+  "type": "Feature",
+  "id": "earth-atacama-aoi-v1",
+  "properties": {
+    "aoi_id": "earth-atacama-aoi-v1", "site_id": "earth-atacama", "version": "1.0", "planetary_body": "earth",
+    "center_latitude": -24.20, "center_longitude": -69.90, "width_m": 10000, "height_m": 10000,
+    "selection_rationale": "Initial 10 km hyperarid Atacama-region terrain window for a controlled DEM comparison; it remains a hypothesis pending source inspection and expert review.",
+    "intended_analog_characteristics": ["arid exposed terrain", "local slope distribution", "local relief", "surface roughness"],
+    "known_limitations": ["Aridity is contextual and is not computed from the DEM", "The window does not represent the entire Atacama Desert"],
+    "creation_method": "Geodetic display footprint approximated from a 10 km square; processing constructs an exact UTM metric grid around the center.",
+    "source_references": ["earth-atacama-srtmgl1"]
+  },
+  "geometry": {"type": "Polygon", "coordinates": [[[-69.9492,-24.2450],[-69.8508,-24.2450],[-69.8508,-24.1550],[-69.9492,-24.1550],[-69.9492,-24.2450]]]}
+}

@@ -1,0 +1,45 @@
+{
+  "processing_run_id": "earth-atacama-20261113T151710Z-a4635fff",
+  "timestamp": "2026-11-13T15:17:10.471827+00:00",
+  "site_id": "earth-atacama",
+  "source_id": "earth-atacama-srtmgl1",
+  "source_checksum": "31ff152bdf6000f313f122a8872d68aecb332ab688f3697933dec4c5abb0c11c",
+  "aoi_version": "1.0",
+  "methodology_version": "terrain-v2.0",
+  "software_version": "0.2.0",
+  "native_resolution": [
+    0.0002777777777777778,
+    0.0002777777777777778
+  ],
+  "target_resolution": 60.0,
+  "source_crs": "EPSG:4326",
+  "processing_crs": "EPSG:32719",
+  "resampling_method": "bilinear",
+  "nodata_handling": "Source nodata is propagated to NaN and excluded from every metric",
+  "requested_analysis_window_m": [
+    10000.0,
+    10000.0
+  ],
+  "actual_analysis_window_m": [
+    10020.0,
+    10020.0
+  ],
+  "grid_dimensions": [
+    167,
+    167
+  ],
+  "metric_configuration": {
+    "methodology_version": "terrain-v2.0",
+    "slope_method": "central differences using metric x/y spacing",
+    "local_relief_definition": "local maximum minus local minimum",
+    "local_relief_neighborhood_m": 1000.0,
+    "local_relief_window_pixels": 17,
+    "roughness_definition": "local elevation standard deviation",
+    "roughness_neighborhood_m": 300.0,
+    "roughness_window_pixels": 5
+  },
+  "output_summary": "data\\processed\\earth-atacama.terrain.json",
+  "output_checksum": "23b59f66860ccb16d3945e40f0302f241267b2b211ec55aa57b6db83412fb8f9",
+  "quality_passed": true,
+  "warnings": []
+}

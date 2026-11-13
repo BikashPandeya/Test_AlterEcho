@@ -1,0 +1,12 @@
+{
+  "notice": "Synthetic illustrative values for exercising the Phase 1 code path. Not measurements and not NASA-derived conclusions.",
+  "features": {
+    "mars-jezero": {"slope_p50_deg": 5.0, "slope_p90_deg": 13.0, "local_relief_m": 185.0, "roughness_index": null, "valid_coverage_fraction": 0.96, "resolution_m": 100.0, "projection": "DEMO_ONLY", "calculation_metadata": {"fixture": true}, "data_source": "synthetic Phase 1 fixture", "data_status": "demo_fixture"},
+    "earth-upper-mustang": {"slope_p50_deg": 7.0, "slope_p90_deg": 18.0, "local_relief_m": 260.0, "roughness_index": null, "valid_coverage_fraction": 0.94, "resolution_m": 100.0, "projection": "DEMO_ONLY", "calculation_metadata": {"fixture": true}, "data_source": "synthetic Phase 1 fixture", "data_status": "demo_fixture"},
+    "earth-ladakh": {"slope_p50_deg": 8.0, "slope_p90_deg": 21.0, "local_relief_m": 310.0, "roughness_index": null, "valid_coverage_fraction": 0.91, "resolution_m": 100.0, "projection": "DEMO_ONLY", "calculation_metadata": {"fixture": true}, "data_source": "synthetic Phase 1 fixture", "data_status": "demo_fixture"},
+    "earth-atacama": {"slope_p50_deg": 4.0, "slope_p90_deg": 11.0, "local_relief_m": 150.0, "roughness_index": null, "valid_coverage_fraction": 0.97, "resolution_m": 100.0, "projection": "DEMO_ONLY", "calculation_metadata": {"fixture": true}, "data_source": "synthetic Phase 1 fixture", "data_status": "demo_fixture"},
+    "earth-holuhraun": {"slope_p50_deg": 3.0, "slope_p90_deg": 9.0, "local_relief_m": 115.0, "roughness_index": null, "valid_coverage_fraction": 0.92, "resolution_m": 100.0, "projection": "DEMO_ONLY", "calculation_metadata": {"fixture": true}, "data_source": "synthetic Phase 1 fixture", "data_status": "demo_fixture"},
+    "earth-mcmurdo-dry-valleys": {"slope_p50_deg": 6.0, "slope_p90_deg": 16.0, "local_relief_m": 225.0, "roughness_index": null, "valid_coverage_fraction": 0.88, "resolution_m": 100.0, "projection": "DEMO_ONLY", "calculation_metadata": {"fixture": true}, "data_source": "synthetic Phase 1 fixture", "data_status": "demo_fixture"}
+  }
+}
+

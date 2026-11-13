@@ -1,0 +1,18 @@
+{
+  "methodology_version": "terrain-v2.0",
+  "target_resolution_m": 60.0,
+  "analysis_extent_m": 10000.0,
+  "local_relief_neighborhood_m": 1000.0,
+  "roughness_neighborhood_m": 300.0,
+  "tolerances": {
+    "slope_p50_deg": {"value": 5.0, "rationale": "Separates modest median-slope differences without implying measurement uncertainty."},
+    "slope_p90_deg": {"value": 10.0, "rationale": "Allows wider variation in the steep-terrain tail."},
+    "local_relief_p50_m": {"value": 100.0, "rationale": "A 10% difference relative to the 1 km relief neighborhood."},
+    "local_relief_p90_m": {"value": 200.0, "rationale": "Allows greater variation in high-relief cells."},
+    "roughness_mean": {"value": 15.0, "rationale": "Elevation standard deviation in a 300 m neighborhood; initial transparent engineering tolerance."},
+    "roughness_p90": {"value": 30.0, "rationale": "Wider tolerance for the roughness tail."}
+  },
+  "default_weights": {"slope_p50_deg": 0.20, "slope_p90_deg": 0.20, "local_relief_p50_m": 0.20, "local_relief_p90_m": 0.20, "roughness_mean": 0.10, "roughness_p90": 0.10},
+  "minimum_usable_metrics": 4,
+  "minimum_valid_coverage_fraction": 0.90
+}

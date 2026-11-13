@@ -1,0 +1,15 @@
+[
+  {"id":"nasa-jezero","title":"NASA - Jezero Crater","url":"https://science.nasa.gov/mars/mars-exploration/mars-2020-perseverance/mission-overview/jezero-crater/","role":"reference context"},
+  {"id":"usgs-jezero-dem","title":"USGS Mars 2020 landing-site terrain products","url":"https://www.usgs.gov/data/mars-2020-terrain-relative-navigation-ctx-dtm-mosaic","role":"future DEM source"},
+  {"id":"handoff-candidate-atlas","title":"AlterEcho research handoff candidate atlas","url":"about:local-research-handoff","role":"project hypothesis"},
+  {"id":"ladakh-research","title":"Ladakh analogue research","url":"https://doi.org/10.1017/S1473550419000119","role":"analog context"},
+  {"id":"isro-ladakh","title":"ISRO Space Analog Mission in Tso Kar Valley","url":"https://www.isro.gov.in/ISRO_EN/Space_Analog_Mission.html","role":"operational context"},
+  {"id":"atacama-study","title":"Mars-like soils in the Atacama Desert","url":"https://doi.org/10.1126/science.1089143","role":"analog context"},
+  {"id":"nasa-atacama","title":"NASA JPL Atacama instrument field test","url":"https://www.jpl.nasa.gov/news/detecting-life-in-the-ultra-dry-atacama-desert/","role":"analog context"},
+  {"id":"raven-holuhraun","title":"RAVEN Holuhraun field site","url":"https://raven.lpl.arizona.edu/field-site-holuhraun-iceland","role":"analog context"},
+  {"id":"holuhraun-study","title":"Holuhraun as a planetary analog","url":"https://doi.org/10.3847/PSJ/adb5f1","role":"analog context"},
+  {"id":"nasa-astrobiology-sites","title":"NASA Astrobiology field sites","url":"https://astrobiology.nasa.gov/research-locations/","role":"analog context"},
+  {"id":"usap-taylor-valley","title":"US Antarctic Program field camps","url":"https://www.usap.gov/sciencesupport/scienceplanningsummaries/2026_2027/fieldcamps.cfm","role":"display locator context"},
+  {"id":"dallol-study","title":"Dallol geothermal planetary field analog","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC6459281/","role":"analog context"}
+]
+

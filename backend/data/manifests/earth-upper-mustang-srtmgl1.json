@@ -1,0 +1,49 @@
+{
+  "source_id": "earth-upper-mustang-srtmgl1",
+  "title": "NASA SRTMGL1.003 - Upper Mustang AOI tiles",
+  "planetary_body": "earth",
+  "provider": "NASA LP DAAC / USGS EROS",
+  "mission": "Shuttle Radar Topography Mission",
+  "instrument": "SRTM C-band radar",
+  "product_name": "SRTMGL1",
+  "product_version": "003",
+  "source_page_url": "https://search.earthdata.nasa.gov/search?q=SRTMGL1",
+  "download_url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/SRTMGL1.003/N29E083.SRTMGL1.hgt/N29E083.SRTMGL1.hgt.zip",
+  "doi": "10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+  "access_date": "2026-11-13",
+  "license_or_use_constraints": "NASA Earthdata authentication required; retain NASA/LP DAAC citation.",
+  "native_resolution": [
+    0.0002777777777777778,
+    0.0002777777777777778
+  ],
+  "native_crs": "EPSG:4326",
+  "native_bounds": [
+    82.99986111111112,
+    28.99986111111111,
+    84.0001388888889,
+    30.000138888888888
+  ],
+  "native_nodata": -32768.0,
+  "file_size": 15360548,
+  "filename": "N29E083.SRTMGL1.hgt.zip",
+  "sha256_checksum": "7cf7f97cf773c02196f6fd01223caa3083535556e4c96b6dfea28f84fa268c36",
+  "citation_text": "NASA JPL, NASA Shuttle Radar Topography Mission Global 1 arc second V003, DOI 10.5067/MEaSUREs/SRTM/SRTMGL1.003.",
+  "processing_status": "processed",
+  "notes": "Downloaded file was checksummed, inspected, and processed through the terrain-v2.0 pipeline.",
+  "extracted_filename": "N29E083.hgt",
+  "extracted_sha256_checksum": "7ab9f9c07f8a43f96fcd1e00dabb269a88221df1fed1445f58d49857ef08ca7b",
+  "aoi_id": "earth-upper-mustang-aoi-v1",
+  "tiles": [
+    {
+      "tile_id": "N29E083",
+      "filename": "N29E083.SRTMGL1.hgt.zip",
+      "download_url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/SRTMGL1.003/N29E083.SRTMGL1.hgt/N29E083.SRTMGL1.hgt.zip",
+      "sha256_checksum": "7cf7f97cf773c02196f6fd01223caa3083535556e4c96b6dfea28f84fa268c36",
+      "file_size": 15360548,
+      "extracted_filename": "N29E083.hgt",
+      "extracted_sha256_checksum": "7ab9f9c07f8a43f96fcd1e00dabb269a88221df1fed1445f58d49857ef08ca7b"
+    }
+  ],
+  "mosaic_filename": null,
+  "mosaic_sha256_checksum": null
+}

@@ -1,0 +1,49 @@
+{
+  "source_id": "earth-ladakh-srtmgl1",
+  "title": "NASA SRTMGL1.003 - Ladakh AOI tiles",
+  "planetary_body": "earth",
+  "provider": "NASA LP DAAC / USGS EROS",
+  "mission": "Shuttle Radar Topography Mission",
+  "instrument": "SRTM C-band radar",
+  "product_name": "SRTMGL1",
+  "product_version": "003",
+  "source_page_url": "https://search.earthdata.nasa.gov/search?q=SRTMGL1",
+  "download_url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/SRTMGL1.003/N34E077.SRTMGL1.hgt/N34E077.SRTMGL1.hgt.zip",
+  "doi": "10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+  "access_date": "2026-11-13",
+  "license_or_use_constraints": "NASA Earthdata authentication required; retain NASA/LP DAAC citation.",
+  "native_resolution": [
+    0.0002777777777777778,
+    0.0002777777777777778
+  ],
+  "native_crs": "EPSG:4326",
+  "native_bounds": [
+    76.99986111111112,
+    33.999861111111116,
+    78.0001388888889,
+    35.00013888888889
+  ],
+  "native_nodata": -32768.0,
+  "file_size": 18417837,
+  "filename": "N34E077.SRTMGL1.hgt.zip",
+  "sha256_checksum": "640f1615cc2c9822c8228604b5ab14454d2e795b8e08271a89624c23257a772e",
+  "citation_text": "NASA JPL, NASA Shuttle Radar Topography Mission Global 1 arc second V003, DOI 10.5067/MEaSUREs/SRTM/SRTMGL1.003.",
+  "processing_status": "processed",
+  "notes": "Downloaded file was checksummed, inspected, and processed through the terrain-v2.0 pipeline.",
+  "extracted_filename": "N34E077.hgt",
+  "extracted_sha256_checksum": "01d169724e5cd2561fb216b301ad2ddcc6a8494fff61774f5ae2a60b5496942e",
+  "aoi_id": "earth-ladakh-aoi-v1",
+  "tiles": [
+    {
+      "tile_id": "N34E077",
+      "filename": "N34E077.SRTMGL1.hgt.zip",
+      "download_url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/SRTMGL1.003/N34E077.SRTMGL1.hgt/N34E077.SRTMGL1.hgt.zip",
+      "sha256_checksum": "640f1615cc2c9822c8228604b5ab14454d2e795b8e08271a89624c23257a772e",
+      "file_size": 18417837,
+      "extracted_filename": "N34E077.hgt",
+      "extracted_sha256_checksum": "01d169724e5cd2561fb216b301ad2ddcc6a8494fff61774f5ae2a60b5496942e"
+    }
+  ],
+  "mosaic_filename": null,
+  "mosaic_sha256_checksum": null
+}

@@ -1,0 +1,13 @@
+{
+  "type": "Feature", "id": "earth-upper-mustang-aoi-v1",
+  "properties": {
+    "aoi_id": "earth-upper-mustang-aoi-v1", "site_id": "earth-upper-mustang", "version": "1.0", "planetary_body": "earth",
+    "center_latitude": 29.10, "center_longitude": 83.90, "width_m": 10000, "height_m": 10000,
+    "selection_rationale": "A bounded high-altitude arid terrain window near the existing Upper Mustang research locator; selected for repeatable terrain screening, not as a claim about the whole region.",
+    "intended_analog_characteristics": ["arid dissected terrain", "slope distribution", "local relief", "surface roughness"],
+    "known_limitations": ["The AOI requires expert review and field-context validation", "Terrain does not measure aridity, geology, access, or operational safety"],
+    "creation_method": "Approximate WGS84 display footprint around a 10 km metric analysis grid center.",
+    "source_references": ["earth-upper-mustang-srtmgl1"]
+  },
+  "geometry": {"type": "Polygon", "coordinates": [[[83.8486,29.0550],[83.9514,29.0550],[83.9514,29.1450],[83.8486,29.1450],[83.8486,29.0550]]]}
+}

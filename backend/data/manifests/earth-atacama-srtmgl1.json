@@ -1,0 +1,49 @@
+{
+  "source_id": "earth-atacama-srtmgl1",
+  "title": "NASA Shuttle Radar Topography Mission Global 1 Arc Second V003",
+  "planetary_body": "earth",
+  "provider": "NASA LP DAAC / USGS EROS",
+  "mission": "Shuttle Radar Topography Mission",
+  "instrument": "SRTM C-band radar",
+  "product_name": "SRTMGL1",
+  "product_version": "003",
+  "source_page_url": "https://search.earthdata.nasa.gov/search?q=SRTMGL1",
+  "download_url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/SRTMGL1.003/S25W070.SRTMGL1.hgt/S25W070.SRTMGL1.hgt.zip",
+  "doi": "10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+  "access_date": "2026-11-13",
+  "license_or_use_constraints": "NASA Earthdata authentication may be required; follow LP DAAC data-use and citation guidance.",
+  "native_resolution": [
+    0.0002777777777777778,
+    0.0002777777777777778
+  ],
+  "native_crs": "EPSG:4326",
+  "native_bounds": [
+    -70.00013888888888,
+    -25.00013888888889,
+    -68.9998611111111,
+    -23.999861111111112
+  ],
+  "native_nodata": -32768.0,
+  "file_size": 12504377,
+  "filename": "S25W070.SRTMGL1.hgt.zip",
+  "sha256_checksum": "5def5b1a8ccc9fc9db063f4ef754cf77828db647a15a00041d1a2ca5b90e5078",
+  "citation_text": "NASA JPL, NASA Shuttle Radar Topography Mission Global 1 arc second V003, DOI 10.5067/MEaSUREs/SRTM/SRTMGL1.003.",
+  "processing_status": "processed",
+  "notes": "Downloaded file was checksummed, inspected, and processed through the terrain-v2.0 pipeline.",
+  "extracted_filename": "S25W070.hgt",
+  "extracted_sha256_checksum": "31ff152bdf6000f313f122a8872d68aecb332ab688f3697933dec4c5abb0c11c",
+  "aoi_id": "earth-atacama-aoi-v1",
+  "tiles": [
+    {
+      "tile_id": "S25W070",
+      "filename": "S25W070.SRTMGL1.hgt.zip",
+      "download_url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/SRTMGL1.003/S25W070.SRTMGL1.hgt/S25W070.SRTMGL1.hgt.zip",
+      "sha256_checksum": "5def5b1a8ccc9fc9db063f4ef754cf77828db647a15a00041d1a2ca5b90e5078",
+      "file_size": 12504377,
+      "extracted_filename": "S25W070.hgt",
+      "extracted_sha256_checksum": "31ff152bdf6000f313f122a8872d68aecb332ab688f3697933dec4c5abb0c11c"
+    }
+  ],
+  "mosaic_filename": null,
+  "mosaic_sha256_checksum": null
+}

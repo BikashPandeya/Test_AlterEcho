@@ -1,0 +1,8 @@
+{
+  "methodology_version": "terrain-gaussian-v1",
+  "tolerances": {"slope_p50_deg": 6.0, "slope_p90_deg": 10.0, "local_relief_m": 180.0, "roughness_index": 0.25},
+  "default_weights": {"slope_p50_deg": 0.35, "slope_p90_deg": 0.35, "local_relief_m": 0.30},
+  "minimum_usable_metrics": 2,
+  "minimum_valid_coverage_fraction": 0.75
+}
+

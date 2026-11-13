@@ -1,0 +1,66 @@
+[
+  {
+    "id": "mars-jezero", "name": "Jezero Crater", "body": "mars",
+    "country_or_region": "Mars - Isidis Planitia", "latitude": 18.38, "longitude": 77.58,
+    "short_description": "Phase 1 Mars reference region. The display coordinate is approximate; a measured AOI is not yet registered.",
+    "analog_type": "planetary_reference", "relevant_characteristics": ["crater floor", "ancient delta", "rim terrain"],
+    "known_limitations": ["Demo feature values are synthetic", "No production AOI or DEM has been processed"],
+    "source_references": ["nasa-jezero", "usgs-jezero-dem"], "data_status": "demo_fixture",
+    "available_metrics": ["slope_p50_deg", "slope_p90_deg", "local_relief_m"],
+    "thumbnail_url": null, "map_display": {"marker_color": "#ef4444", "display_coordinate_status": "metadata_only"}
+  },
+  {
+    "id": "earth-upper-mustang", "name": "Upper Mustang", "body": "earth", "country_or_region": "Nepal",
+    "latitude": 29.1, "longitude": 83.9, "short_description": "High-altitude arid terrain study window with a validated 10 km square SRTM AOI and real processed terrain summary.",
+    "analog_type": "terrain_candidate", "relevant_characteristics": ["aridity", "erosion", "rugged slopes"],
+    "known_limitations": ["Literature support is preliminary", "Terrain alone does not establish a Mars analog"],
+    "source_references": ["handoff-candidate-atlas"], "data_status": "demo_fixture",
+    "available_metrics": ["slope_p50_deg", "slope_p90_deg", "local_relief_m"], "thumbnail_url": null,
+    "map_display": {"marker_color": "#f97316", "display_coordinate_status": "metadata_only"}
+  },
+  {
+    "id": "earth-ladakh", "name": "Ladakh", "body": "earth", "country_or_region": "India",
+    "latitude": 34.2, "longitude": 77.6, "short_description": "High-altitude cold-desert study window with a validated 10 km square SRTM AOI and real processed terrain summary.",
+    "analog_type": "terrain_candidate", "relevant_characteristics": ["cold desert", "large relief", "rocky slopes"],
+    "known_limitations": ["A named subregion and AOI are still required", "Earth pressure is not comparable to Mars"],
+    "source_references": ["ladakh-research", "isro-ladakh"], "data_status": "demo_fixture",
+    "available_metrics": ["slope_p50_deg", "slope_p90_deg", "local_relief_m"], "thumbnail_url": null,
+    "map_display": {"marker_color": "#f97316", "display_coordinate_status": "metadata_only"}
+  },
+  {
+    "id": "earth-atacama", "name": "Atacama Desert", "body": "earth", "country_or_region": "Chile",
+    "latitude": -23.5, "longitude": -69.25, "short_description": "Arid-region study window with a validated 10 km square SRTM AOI and real processed terrain summary.",
+    "analog_type": "terrain_candidate", "relevant_characteristics": ["extreme aridity", "rocky and salt landscapes"],
+    "known_limitations": ["Aridity is not scored by the terrain engine", "The regional pin is a locator; the validated AOI footprint is shown separately"],
+    "source_references": ["atacama-study", "nasa-atacama"], "data_status": "demo_fixture",
+    "available_metrics": ["slope_p50_deg", "slope_p90_deg", "local_relief_m"], "thumbnail_url": null,
+    "map_display": {"marker_color": "#f97316", "display_coordinate_status": "metadata_only"}
+  },
+  {
+    "id": "earth-holuhraun", "name": "Holuhraun Volcanic Highlands", "body": "earth", "country_or_region": "Iceland",
+    "latitude": 64.85, "longitude": -16.83, "short_description": "Volcanic lava-field candidate with planetary field-research context.",
+    "analog_type": "terrain_candidate", "relevant_characteristics": ["young lava terrain", "volcanic roughness"],
+    "known_limitations": ["Requires ArcticDEM or another verified high-latitude DEM", "Volcanic analogy is not a Jezero geology match"],
+    "source_references": ["raven-holuhraun", "holuhraun-study"], "data_status": "demo_fixture",
+    "available_metrics": ["slope_p50_deg", "slope_p90_deg", "local_relief_m"], "thumbnail_url": null,
+    "map_display": {"marker_color": "#f97316", "display_coordinate_status": "metadata_only"}
+  },
+  {
+    "id": "earth-mcmurdo-dry-valleys", "name": "McMurdo Dry Valleys", "body": "earth", "country_or_region": "Antarctica",
+    "latitude": -77.6333, "longitude": 162.8667, "short_description": "Taylor Valley-area display locator for a cold-desert candidate, not an AOI polygon.",
+    "analog_type": "terrain_candidate", "relevant_characteristics": ["cold desert", "exposed polar ground", "isolation"],
+    "known_limitations": ["Requires REMA; SRTM has no coverage", "Ice, biology, seasonality and logistics are not scored"],
+    "source_references": ["nasa-astrobiology-sites", "usap-taylor-valley"], "data_status": "demo_fixture",
+    "available_metrics": ["slope_p50_deg", "slope_p90_deg", "local_relief_m"], "thumbnail_url": null,
+    "map_display": {"marker_color": "#f97316", "display_coordinate_status": "metadata_only"}
+  },
+  {
+    "id": "earth-danakil", "name": "Danakil Depression", "body": "earth", "country_or_region": "Ethiopia",
+    "latitude": 13.8, "longitude": 40.2, "short_description": "Optional catalog candidate with metadata only.",
+    "analog_type": "environmental_candidate", "relevant_characteristics": ["volcanic", "evaporite-rich", "extreme heat"],
+    "known_limitations": ["No terrain feature fixture is provided", "Heat and geochemistry are outside the Phase 1 score"],
+    "source_references": ["dallol-study"], "data_status": "metadata_only", "available_metrics": [], "thumbnail_url": null,
+    "map_display": {"marker_color": "#94a3b8", "display_coordinate_status": "metadata_only"}
+  }
+]
+

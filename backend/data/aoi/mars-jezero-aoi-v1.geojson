@@ -1,0 +1,14 @@
+{
+  "type": "Feature",
+  "id": "mars-jezero-aoi-v1",
+  "properties": {
+    "aoi_id": "mars-jezero-aoi-v1", "site_id": "mars-jezero", "version": "1.0", "planetary_body": "mars",
+    "center_latitude": 18.44, "center_longitude": 77.45, "width_m": 10000, "height_m": 10000,
+    "selection_rationale": "Equal-scale terrain window centered inside the Jezero CTX DEM coverage for the first controlled terrain experiment.",
+    "intended_analog_characteristics": ["local slope distribution", "local relief", "surface roughness"],
+    "known_limitations": ["The window is not the whole crater or delta", "Terrain alone does not represent Jezero geology or environment"],
+    "creation_method": "Geodetic display footprint approximated from a 10 km square; processing constructs an exact metric grid around the center.",
+    "source_references": ["mars-jezero-ctx-dem"]
+  },
+  "geometry": {"type": "Polygon", "coordinates": [[[77.3611,18.3557],[77.5389,18.3557],[77.5389,18.5243],[77.3611,18.5243],[77.3611,18.3557]]]}
+}

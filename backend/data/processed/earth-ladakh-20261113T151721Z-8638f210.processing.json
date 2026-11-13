@@ -1,0 +1,45 @@
+{
+  "processing_run_id": "earth-ladakh-20261113T151721Z-8638f210",
+  "timestamp": "2026-11-13T15:17:21.801701+00:00",
+  "site_id": "earth-ladakh",
+  "source_id": "earth-ladakh-srtmgl1",
+  "source_checksum": "01d169724e5cd2561fb216b301ad2ddcc6a8494fff61774f5ae2a60b5496942e",
+  "aoi_version": "1.0",
+  "methodology_version": "terrain-v2.0",
+  "software_version": "0.2.0",
+  "native_resolution": [
+    0.0002777777777777778,
+    0.0002777777777777778
+  ],
+  "target_resolution": 60.0,
+  "source_crs": "EPSG:4326",
+  "processing_crs": "EPSG:32643",
+  "resampling_method": "bilinear",
+  "nodata_handling": "Source nodata is propagated to NaN and excluded from every metric",
+  "requested_analysis_window_m": [
+    10000.0,
+    10000.0
+  ],
+  "actual_analysis_window_m": [
+    10020.0,
+    10020.0
+  ],
+  "grid_dimensions": [
+    167,
+    167
+  ],
+  "metric_configuration": {
+    "methodology_version": "terrain-v2.0",
+    "slope_method": "central differences using metric x/y spacing",
+    "local_relief_definition": "local maximum minus local minimum",
+    "local_relief_neighborhood_m": 1000.0,
+    "local_relief_window_pixels": 17,
+    "roughness_definition": "local elevation standard deviation",
+    "roughness_neighborhood_m": 300.0,
+    "roughness_window_pixels": 5
+  },
+  "output_summary": "data\\processed\\earth-ladakh.terrain.json",
+  "output_checksum": "4477e19cf81a24b1f65214fa79fbc96149f40461c5194b33ed949b5b9fc8cec9",
+  "quality_passed": true,
+  "warnings": []
+}

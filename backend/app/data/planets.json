@@ -1,0 +1,27 @@
+[
+  {
+    "id": "earth",
+    "name": "Earth",
+    "description": "Candidate terrestrial terrain analogs.",
+    "status": "phase_1_available",
+    "supported_capabilities": ["catalog", "map", "terrain_comparison"],
+    "default_view": {"center": [20.0, 15.0], "zoom": 1.5}
+  },
+  {
+    "id": "mars",
+    "name": "Mars",
+    "description": "Jezero Crater is the initial reference region.",
+    "status": "phase_1_reference",
+    "supported_capabilities": ["catalog", "reference_region", "terrain_comparison"],
+    "default_view": {"reference_site_id": "mars-jezero"}
+  },
+  {
+    "id": "moon",
+    "name": "Moon",
+    "description": "Moon analysis is coming in a later phase.",
+    "status": "later_phase",
+    "supported_capabilities": ["navigation"],
+    "default_view": {}
+  }
+]
+
