@@ -10,7 +10,7 @@ The easiest way to understand the backend is to follow one request from the mome
 2. **The frontend (or you) calls an endpoint.** For example, `GET /api/sites` asks for the catalog, while `POST /api/discover` asks for terrain comparisons.
 3. **A router handles the URL.** Files in `app/routers/` validate the request shape, call the relevant service, and turn missing or invalid input into an HTTP error.
 4. **A service does the work.** Services load catalog or terrain data, calculate comparisons, or assemble explanations. The API does not keep its catalog and scientific settings hard-coded in route functions.
-5. **Pydantic checks the data shape.** The models in `app/models/schemas.py` describe accepted requests and returned objects.
+5. **Pydantic checks the data shape.** The models in `app/models/s.py` describe accepted requests and returned objects.
 6. **FastAPI sends JSON back.** OpenAPI documentation and a testable API are available at `/docs`.
 
 In short:
@@ -60,7 +60,7 @@ python -m pytest -q
 | `app/routers/catalog.py` | Planet, site, and methodology endpoints. |
 | `app/routers/comparison.py` | The `POST /api/discover` workflow: checks requested sites, chooses the appropriate feature data, compares candidates, and builds the response. |
 | `app/routers/geospatial.py` | Endpoints for AOIs, terrain summaries, source manifests, and processing runs. |
-| `app/models/schemas.py` | Pydantic models for sites, requests, terrain summaries, provenance, comparisons, and API responses. |
+| `app/models/s.py` | Pydantic models for sites, requests, terrain summaries, provenance, comparisons, and API responses. |
 | `app/services/catalog_service.py` | Loads and filters the catalog JSON and finds any processed terrain summary for a site. |
 | `app/services/similarity_service.py` | Applies the configured metric weights and tolerances to produce terrain similarity scores. |
 | `app/services/explanation_service.py` | Turns comparison metrics and rankability into a short explanation and limitations. |
